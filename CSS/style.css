@@ -1,0 +1,307 @@
+.form {
+  background-color: lightpink;
+  color: black;
+  height: 800px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center; }
+
+.textarea {
+  background-color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px; }
+
+/*ANIMACIONES*/
+.section__estilo-uno {
+  animation-duration: 5s;
+  animation-name: section__estilo-uno; }
+
+@keyframes section__estilo-uno {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*NAVBAR*/
+.navbar {
+  background-color: lightpink !important;
+  padding: 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem; }
+
+.navbar__nav-link {
+  color: black;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.navbar__nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.navbar__nav-item:hover {
+  background-color: pink;
+  color: black;
+  border-radius: 3rem; }
+
+.navbar__img-logo {
+  width: 100px;
+  border-radius: 3rem; }
+
+/*SECTION*/
+.section {
+  background-color: pink;
+  font-family: 'Dancing Script', cursive; }
+
+.section__estilo-uno {
+  color: green;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear; }
+
+.section__estilo-uno:hover {
+  transform: translate(-100px, 0);
+  -webkit-transform: translate(-100px, 0);
+  /** Safari & Chrome **/
+  -o-transform: translate(-100px, 0);
+  /** Opera **/
+  -moz-transform: translate(-100px, 0);
+  /*MOZILLA*/ }
+
+.section__estilo-dos1 {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear; }
+
+.section__estilo-dos1:hover {
+  -webkit-transform: translate(10%);
+  transform: translate(10%); }
+
+.section__estilo-dos {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center; }
+
+.section__parrafo {
+  background: none;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.section__estilo-tres {
+  background-color: none;
+  color: green;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3rem; }
+
+.section__audio {
+  justify-content: center;
+  background-color: lightpink; }
+
+.section__img-inicio {
+  border: 2px solid pink;
+  padding: 20px;
+  -webkit-transition: 1s linear;
+  transition: 1s linear; }
+
+.section__img-inicio:hover {
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px); }
+
+/*ASIDE*/
+.aside {
+  background-color: white; }
+
+.aside__iframe {
+  border: 5px solid green; }
+
+.aside__estilo-uno {
+  background-color: none;
+  color: green;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  padding-top: 3rem;
+  text-align: center; }
+
+.aside__estilo-dos {
+  background-color: none;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  padding-top: 10%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  text-align: center; }
+
+.vision__iframe {
+  background-color: pink;
+  padding: 20px; }
+
+/*ARTICLE*/
+.article {
+  background-color: none; }
+
+.article__estilo-dos {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px; }
+
+.article__estilo-tres {
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 23px;
+  text-align: center; }
+
+.article__parrafo {
+  background-color: none;
+  color: black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: center;
+  padding: 20px; }
+
+/*MAIN*/
+.main {
+  padding: 40px; }
+
+/*FORM*/
+.form {
+  padding-bottom: 20px; }
+
+.form-group {
+  background-color: black;
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  text-align: center; }
+
+.form-control {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center; }
+
+.btn {
+  display: block;
+  margin: auto;
+  background-color: none;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px; }
+
+/*MIXIN*/
+.body {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.table {
+  font-size: "Dancing Script";
+  background-color: none; }
+
+.navbar {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/*TABLAS*/
+.table {
+  border: 5px solid green;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.table__estilo-uno {
+  background-color: none;
+  color: green;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.table__estilo-dos {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px; }
+
+.table__estilo-tres {
+  background-color: white;
+  font-size: 18px;
+  padding: 20px; }
+
+.table__img {
+  display: block;
+  margin: auto; }
+
+.table__img:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px pink;
+  -webkit-box-shadow: 0px 0px 15px 15px pink;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg); }
+
+/*FOOTER*/
+.footer {
+  background-color: pink;
+  padding: 20px; }
+
+.footer__estilo-cuatro {
+  font-family: 'Dancing script', cursive;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 40px; }
+
+.footer__div {
+  font-family: 'Dancing script', cursive;
+  color: black;
+  font-size: 20px;
+  text-align: center; }
+
+.footer__img {
+  width: 120px;
+  height: 120px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: lightpink;
+  border: 1px solid white; }
+
+/*COPYRIGHT*/
+.copyright {
+  color: black;
+  font-family: 'Dancing Script';
+  font-size: 20px;
+  text-align: center;
+  padding-top: 50px; }
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 320px) {
+  .section__img-inicio {
+    display: block;
+    margin: auto; }
+  .aside__img {
+    width: 180px;
+    height: 180px; } }
